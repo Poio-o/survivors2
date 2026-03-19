@@ -20,7 +20,7 @@ export class SpriteManager {
     // Load units
     for (const u of units) {
       // Map Sprites
-      promises.push(this.loadImage(`/sprites/units_map/${u}.png`, u).then(img => {
+      promises.push(this.loadImage(`${import.meta.env.BASE_URL}sprites/units_map/${u}.png`, u).then(img => {
         if (img) {
           this.sprites.set(`${u}_map`, img);
           // Generate tinted enemy version
@@ -29,7 +29,7 @@ export class SpriteManager {
       }));
 
       // Portrait Sprites
-      promises.push(this.loadImage(`/sprites/units_portrait/${u}.png`, u).then(img => {
+      promises.push(this.loadImage(`${import.meta.env.BASE_URL}sprites/units_portrait/${u}.png`, u).then(img => {
         if (img) {
           this.sprites.set(`${u}_portrait`, img);
         }
@@ -38,7 +38,7 @@ export class SpriteManager {
 
     // Load tiles
     for (const t of tiles) {
-      promises.push(this.loadImage(`/sprites/tiles/${t}.png`, t).then(img => {
+      promises.push(this.loadImage(`${import.meta.env.BASE_URL}sprites/tiles/${t}.png`, t).then(img => {
         if (img) this.sprites.set(`tile_${t}`, img);
       }));
     }

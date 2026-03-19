@@ -31,14 +31,14 @@ export class SoundManager {
     ];
 
     for (const file of sfxFiles) {
-      const audio = new Audio(`/sounds/effects/${file}.mp3`);
+      const audio = new Audio(`${import.meta.env.BASE_URL}sounds/effects/${file}.mp3`);
       // We don't throw on error so the game still runs if sound is missing
       audio.onerror = () => console.warn(`Failed to load SFX: ${file}`);
       this.sfxCache.set(file, audio);
     }
 
     for (const file of this.battleTracks) {
-      const audio = new Audio(`/sounds/battlemusic/${file}.mp3`);
+      const audio = new Audio(`${import.meta.env.BASE_URL}sounds/battlemusic/${file}.mp3`);
       audio.loop = true;
       audio.onerror = () => console.warn(`Failed to load music: ${file}`);
       this.musicCache.set(file, audio);
@@ -116,7 +116,7 @@ export class SoundManager {
       }
     } else {
        // If standard cache misses, try loading dynamically just in case
-       const audioPath = (exactId === 'win' || exactId === 'losing') ? `/sounds/effects/${exactId}.mp3` : `/sounds/battlemusic/${exactId}.mp3`;
+       const audioPath = (exactId === 'win' || exactId === 'losing') ? `${import.meta.env.BASE_URL}sounds/effects/${exactId}.mp3` : `${import.meta.env.BASE_URL}sounds/battlemusic/${exactId}.mp3`;
        const audio = new Audio(audioPath);
        audio.volume = this.musicVolume / 100;
        audio.play().catch(e => console.warn('Music play prevented', e));
@@ -175,7 +175,7 @@ export class SoundManager {
       }
     } else {
       // Dynamic fallback for un-cached sounds
-      const audio = new Audio(`/sounds/effects/${exactFile}.mp3`);
+      const audio = new Audio(`${import.meta.env.BASE_URL}sounds/effects/${exactFile}.mp3`);
       audio.volume = this.sfxVolume / 100;
       audio.play().catch(e => console.warn('SFX play prevented', e));
     }

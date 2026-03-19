@@ -847,7 +847,7 @@ export class Game {
            this.battleManager = new BattleManager();
            const challenge = CHALLENGES.find(c => c.id === selectedId);
            if (challenge) {
-             this.loadMap(`/assets/maps/${challenge.fileName}`, challenge.id).catch((e) => {
+             this.loadMap(`${import.meta.env.BASE_URL}assets/maps/${challenge.fileName}`, challenge.id).catch((e) => {
                console.error('Failed to load challenge map:', e);
                this.notificationRenderer.show('Challenge map not found');
                this.startMainMenu();
