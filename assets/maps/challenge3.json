@@ -1,0 +1,328 @@
+{
+  "width": 15,
+  "height": 15,
+  "terrain": [
+    [
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water"
+    ],
+    [
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water"
+    ],
+    [
+      "water",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "water",
+      "grass",
+      "forest",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "water"
+    ],
+    [
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "forest",
+      "grass"
+    ],
+    [
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "water"
+    ],
+    [
+      "water",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water"
+    ],
+    [
+      "water",
+      "grass",
+      "forest",
+      "grass",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water"
+    ],
+    [
+      "water",
+      "water",
+      "grass",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water"
+    ],
+    [
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "grass",
+      "grass",
+      "water"
+    ],
+    [
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "grass",
+      "forest",
+      "grass"
+    ],
+    [
+      "water",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "water"
+    ],
+    [
+      "water",
+      "grass",
+      "forest",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water"
+    ],
+    [
+      "water",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water"
+    ],
+    [
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water"
+    ],
+    [
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water",
+      "water"
+    ]
+  ],
+  "playerSpawns": [
+    {
+      "x": 2,
+      "y": 2
+    },
+    {
+      "x": 3,
+      "y": 2
+    },
+    {
+      "x": 2,
+      "y": 3
+    },
+    {
+      "x": 1,
+      "y": 6
+    },
+    {
+      "x": 2,
+      "y": 6
+    }
+  ],
+  "enemySpawns": [],
+  "enemyUnits": [
+    {
+      "id": "skeleton",
+      "position": {
+        "x": 7,
+        "y": 2
+      }
+    },
+    {
+      "id": "skeleton",
+      "position": {
+        "x": 8,
+        "y": 2
+      }
+    },
+    {
+      "id": "archer",
+      "position": {
+        "x": 13,
+        "y": 3
+      }
+    },
+    {
+      "id": "archer",
+      "position": {
+        "x": 12,
+        "y": 9
+      }
+    },
+    {
+      "id": "skeleton",
+      "position": {
+        "x": 7,
+        "y": 8
+      }
+    },
+    {
+      "id": "knight",
+      "position": {
+        "x": 9,
+        "y": 12
+      }
+    }
+  ]
+}

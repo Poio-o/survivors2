@@ -1,0 +1,287 @@
+{
+  "width": 18,
+  "height": 10,
+  "terrain": [
+    [
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock"
+    ],
+    [
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "forest",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock"
+    ],
+    [
+      "rock",
+      "rock",
+      "rock",
+      "grass",
+      "grass",
+      "grass",
+      "rock",
+      "rock",
+      "rock",
+      "grass",
+      "grass",
+      "grass",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock"
+    ],
+    [
+      "rock",
+      "rock",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "grass",
+      "rock",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "grass",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock"
+    ],
+    [
+      "rock",
+      "rock",
+      "grass",
+      "grass",
+      "rock",
+      "rock",
+      "grass",
+      "grass",
+      "grass",
+      "rock",
+      "rock",
+      "rock",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "rock"
+    ],
+    [
+      "rock",
+      "grass",
+      "grass",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "grass",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "rock"
+    ],
+    [
+      "rock",
+      "rock",
+      "grass",
+      "grass",
+      "rock",
+      "rock",
+      "grass",
+      "grass",
+      "grass",
+      "rock",
+      "rock",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "grass",
+      "rock"
+    ],
+    [
+      "rock",
+      "rock",
+      "rock",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "rock",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock"
+    ],
+    [
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock"
+    ],
+    [
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock",
+      "rock"
+    ]
+  ],
+  "playerSpawns": [
+    {
+      "x": 3,
+      "y": 3
+    },
+    {
+      "x": 2,
+      "y": 4
+    },
+    {
+      "x": 2,
+      "y": 5
+    },
+    {
+      "x": 2,
+      "y": 6
+    },
+    {
+      "x": 3,
+      "y": 7
+    }
+  ],
+  "enemySpawns": [],
+  "enemyUnits": [
+    {
+      "id": "knight",
+      "position": {
+        "x": 7,
+        "y": 4
+      }
+    },
+    {
+      "id": "knight",
+      "position": {
+        "x": 7,
+        "y": 5
+      }
+    },
+    {
+      "id": "knight",
+      "position": {
+        "x": 7,
+        "y": 6
+      }
+    },
+    {
+      "id": "knight",
+      "position": {
+        "x": 12,
+        "y": 4
+      }
+    },
+    {
+      "id": "knight",
+      "position": {
+        "x": 12,
+        "y": 5
+      }
+    },
+    {
+      "id": "knight",
+      "position": {
+        "x": 12,
+        "y": 6
+      }
+    },
+    {
+      "id": "archer",
+      "position": {
+        "x": 9,
+        "y": 2
+      }
+    },
+    {
+      "id": "archer",
+      "position": {
+        "x": 9,
+        "y": 7
+      }
+    }
+  ]
+}
