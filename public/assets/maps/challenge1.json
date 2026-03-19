@@ -1,0 +1,313 @@
+{
+  "width": 18,
+  "height": 12,
+  "terrain": [
+    [
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass"
+    ],
+    [
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "forest"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "grass",
+      "forest",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "grass"
+    ],
+    [
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass"
+    ],
+    [
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "water",
+      "water",
+      "water",
+      "water",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass"
+    ]
+  ],
+  "playerSpawns": [
+    {
+      "x": 2,
+      "y": 5
+    },
+    {
+      "x": 2,
+      "y": 6
+    },
+    {
+      "x": 3,
+      "y": 4
+    },
+    {
+      "x": 3,
+      "y": 7
+    },
+    {
+      "x": 4,
+      "y": 5
+    }
+  ],
+  "enemySpawns": [],
+  "enemyUnits": [
+    {
+      "id": "knight",
+      "position": {
+        "x": 12,
+        "y": 5
+      }
+    },
+    {
+      "id": "knight",
+      "position": {
+        "x": 12,
+        "y": 6
+      }
+    },
+    {
+      "id": "archer",
+      "position": {
+        "x": 14,
+        "y": 3
+      }
+    },
+    {
+      "id": "archer",
+      "position": {
+        "x": 14,
+        "y": 8
+      }
+    },
+    {
+      "id": "skeleton",
+      "position": {
+        "x": 15,
+        "y": 5
+      }
+    },
+    {
+      "id": "skeleton",
+      "position": {
+        "x": 15,
+        "y": 6
+      }
+    }
+  ]
+}

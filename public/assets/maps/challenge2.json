@@ -1,0 +1,328 @@
+{
+  "width": 15,
+  "height": 15,
+  "terrain": [
+    [
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "forest",
+      "forest",
+      "grass",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "forest",
+      "forest",
+      "grass",
+      "grass",
+      "grass",
+      "forest",
+      "forest",
+      "grass",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "grass",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest"
+    ],
+    [
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest",
+      "forest"
+    ]
+  ],
+  "playerSpawns": [
+    {
+      "x": 7,
+      "y": 7
+    },
+    {
+      "x": 6,
+      "y": 7
+    },
+    {
+      "x": 8,
+      "y": 7
+    },
+    {
+      "x": 7,
+      "y": 6
+    },
+    {
+      "x": 7,
+      "y": 8
+    }
+  ],
+  "enemySpawns": [],
+  "enemyUnits": [
+    {
+      "id": "thief",
+      "position": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    {
+      "id": "thief",
+      "position": {
+        "x": 12,
+        "y": 4
+      }
+    },
+    {
+      "id": "thief",
+      "position": {
+        "x": 3,
+        "y": 11
+      }
+    },
+    {
+      "id": "thief",
+      "position": {
+        "x": 12,
+        "y": 11
+      }
+    },
+    {
+      "id": "thief",
+      "position": {
+        "x": 9,
+        "y": 2
+      }
+    },
+    {
+      "id": "thief",
+      "position": {
+        "x": 5,
+        "y": 12
+      }
+    }
+  ]
+}

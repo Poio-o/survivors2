@@ -1,0 +1,283 @@
+{
+  "width": 12,
+  "height": 12,
+  "terrain": [
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ],
+    [
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass",
+      "grass"
+    ]
+  ],
+  "playerSpawns": [
+    {
+      "x": 5,
+      "y": 5
+    },
+    {
+      "x": 6,
+      "y": 5
+    },
+    {
+      "x": 5,
+      "y": 6
+    },
+    {
+      "x": 6,
+      "y": 6
+    },
+    {
+      "x": 5,
+      "y": 7
+    }
+  ],
+  "enemySpawns": [],
+  "enemyUnits": [
+    {
+      "id": "thief",
+      "position": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "id": "thief",
+      "position": {
+        "x": 10,
+        "y": 1
+      }
+    },
+    {
+      "id": "thief",
+      "position": {
+        "x": 1,
+        "y": 10
+      }
+    },
+    {
+      "id": "thief",
+      "position": {
+        "x": 10,
+        "y": 10
+      }
+    },
+    {
+      "id": "skeleton",
+      "position": {
+        "x": 5,
+        "y": 1
+      }
+    },
+    {
+      "id": "skeleton",
+      "position": {
+        "x": 6,
+        "y": 10
+      }
+    },
+    {
+      "id": "skeleton",
+      "position": {
+        "x": 1,
+        "y": 5
+      }
+    },
+    {
+      "id": "skeleton",
+      "position": {
+        "x": 10,
+        "y": 6
+      }
+    },
+    {
+      "id": "archer",
+      "position": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    {
+      "id": "archer",
+      "position": {
+        "x": 9,
+        "y": 9
+      }
+    },
+    {
+      "id": "archer",
+      "position": {
+        "x": 2,
+        "y": 9
+      }
+    },
+    {
+      "id": "archer",
+      "position": {
+        "x": 9,
+        "y": 2
+      }
+    }
+  ]
+}
